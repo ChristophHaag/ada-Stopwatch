@@ -1,0 +1,4 @@
+Usage:
+Call Stopwatch.Start, then call Stopwatch.Stop, then receive the
+duration between those calls as String with Stopwatch.Get_Time_Image
+(or an error message if you did it wrong).
