@@ -1,4 +1,14 @@
 Usage:
+
+Single Stopwatch:
 Call Stopwatch.Start, then call Stopwatch.Stop, then receive the
 duration between those calls as String with Stopwatch.Get_Time_Image
 (or an error message if you did it wrong).
+Also, get the current STATE with Get_State
+(for not relying on Strings as result).
+
+Multiple Stopwatches:
+First create the array with stopwatches:
+- Create_Stopwatches (count : Positive):
+Then all of the above procedures and functions are available with
+the index as argument.
